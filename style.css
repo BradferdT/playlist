@@ -1,0 +1,54 @@
+body, html{
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+}
+
+.container{
+  height: 100%;
+  width: 100%;
+}
+
+.heading{
+  height: 5%;
+  width: 100%;
+  background-color: rgb(155,155,140);
+  float: left;
+  border-bottom: thin solid black;
+}
+
+.left_main{
+  float: left;
+  height: 90%;
+  width: 50%;
+  background-color: rgb(238,238,238);
+}
+
+.right_main{
+  float: right;
+  height: 90%;
+  width: 50%;
+  background-color: rgba(238,238,238,1);
+}
+
+.footer{
+  float: left;
+  height: 5%;
+  width: 100%;
+  background-color: rgb(104,104,89);
+}
+
+.center_left_content{
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+
+.right_background{
+  margin: 0 auto;
+  width: 100%;
+  z-index: 1;
+  overflow: hidden;
+}
