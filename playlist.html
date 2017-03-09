@@ -20,25 +20,29 @@
   <script src="https://code.jquery.com/jquery-3.1.1.min.js"
     integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
   crossorigin="anonymous"></script>
-    <title>Home</title>
+    <title>Playlist</title>
   </head>
   <body>
 
     <div class="container-fluid">
-      <div class="row header_height">
-        <div class="col-xs-12 heading">
+      <div class="row playlist_header_height">
+        <div class="col-xs-12 playlist_heading">
+          <h1 class="playlist_h1">Click an album to add its tracks to the bin</h1>
         </div>
       </div>
 
-      <div class="row body_height">
-        <div class="col-xs-6 left_main">
-          <h1>Track Bin</h1>
-          <button onclick="location.href='playlist.html'" class="btn_choose">Choose Tracks</button>
+      <div class="row playlist_art_height">
+        <div class="col-xs-12 playlist_art" id="art_list">
         </div>
+      </div>
 
-        <div class="col-xs-6 right_main">
-          <div class="col-xs-6 right_background_covers" id="rnd_covers">
+      <div class="row playlist_body_height">
+        <div class="col-xs-12 playlist_list">
+          <div class="col-xs-10 playlist_border">
+            <ul> </ul>
           </div>
+          <button class="btn" id="clearTracks">Clear Tracks</button>
+          <button class="btn" id="submitBin">Submit Bin</button>
         </div>
       </div>
 
@@ -49,6 +53,6 @@
       </div>
     </div>
 
-      <script src="app.js"></script>
+      <script src="playlist_app.js"></script>
   </body>
 </html>
